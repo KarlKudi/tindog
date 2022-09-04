@@ -12,6 +12,15 @@ h1{
   line-height: 1.5;
 }
 
+h3{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+p{
+  color: #8f8f8f
+}
+
 /* Class Selector */
 
 .btn{
@@ -81,4 +90,26 @@ h1{
 .titleImage{
   transform: rotate(25deg);
   width: 60%;
+}
+
+
+/* Features */
+
+.featureIcon{
+  color: #ef8172;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.featureIcon:hover{
+  color: #ff4c68;
+}
+
+.featureContainer{
+  padding: 7.5%;
+}
+
+.featuresText{
+  padding: 2.5% 5%;
+  text-align: center;
 }
